@@ -78,7 +78,7 @@ header {
 
 header ul {
     display: inline-block;
-    background: #fff;
+    background: whitesmoke;
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -378,7 +378,11 @@ footer {
 
 #about p {
     color: #74808a;
-    margin: 0
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0 auto 30px auto;
+    width: 65%;
+    /* margin: 0 */
 }
 
 #experience {
@@ -434,7 +438,7 @@ footer {
 }
 
 .vtimeline-content h3 {
-    font-size: 1.5em;
+    font-size: 1.9em;
     font-weight: 600;
     color: #374054;
     display: inline-block;
@@ -442,7 +446,7 @@ footer {
 }
 
 .vtimeline-content h4 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
     color: #7e8890;
     margin: 0 0 15px 0
@@ -451,6 +455,13 @@ footer {
 .vtimeline-content p {
     color: #74808a;
     font-size: 0.9em;
+    margin: 0
+}
+
+.vtimeline-content li {
+    /* color: #74808a; */
+    color: black;
+    font-size: 1.1em;
     margin: 0
 }
 
@@ -512,9 +523,10 @@ footer {
 }
 
 .education-block h3 {
-    font-weight: 800;
+    font-weight: 700;
     float: left;
     margin: 0;
+    font-size: 1.5em;
     color: #374054
 }
 
@@ -526,15 +538,16 @@ footer {
 .education-block h4 {
     color: #74808a;
     clear: both;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 0 15px 0
 }
 
 .education-block p,
 .education-block ul {
     margin: 0;
-    color: #74808a;
-    font-size: 0.9em
+    /* color: #74808a; */
+    color: black;
+    font-size: 1.1em
 }
 
 .education-block ul {
@@ -554,11 +567,11 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
-    margin: 0 auto 30px auto;
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
     overflow: hidden;
     background: #fff;
-    border-radius: 4px
+    border-radius: 10px
 }
 
 .project-image {
@@ -574,8 +587,15 @@ footer {
 }
 
 .project-info h3 {
-    font-size: 1.7em;
-    font-weight: 500;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #374054;
+    margin: 0 0 15px 0
+}
+
+.project-info h5 {
+    font-size: 1.2em;
+    font-weight: 600;
     color: #374054;
     margin: 0 0 15px 0
 }
@@ -583,7 +603,7 @@ footer {
 .project-info p {
     color: #74808a;
     margin: 0 0 15px 0;
-    font-size: 0.9em
+    font-size: 1.1em
 }
 
 .project-info a {
