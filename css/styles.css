@@ -78,7 +78,7 @@ header {
 
 header ul {
     display: inline-block;
-    background: whitesmoke;
+    /* background: whitesmoke; */
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -94,7 +94,7 @@ header li {
 header a {
     display: block;
     /* color: #3498db; */
-    color: black;
+    color: white;
     padding: 10px;
     font-size: 20px;
 }
@@ -277,7 +277,7 @@ footer {
     min-height: 500px;
     max-height: 1080px;
     /* background: url(../images/lead-bg.jpg); */
-    background: url(../images/image.jpg);
+    background: url(../images/project_image-2.webp);
     background-size: cover;
     padding: 15px;
     overflow: hidden
